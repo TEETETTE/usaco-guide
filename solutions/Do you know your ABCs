@@ -1,0 +1,17 @@
+---
+id: usaco-1059
+source: USACO Bronze 2020 December
+title: Do you know your ABCs
+author: Yifan Guo
+---
+
+[Official Analysis](http://www.usaco.org/current/data/sol_cowdance_silver_jan17.html)
+
+## Explanation
+
+
+Use `\texttt{}` around variable names with length *greater than one*, like so. Place long equations on separate lines with display math, and use `\cdot` instead of `*` to denote multiplication.
+
+$$
+\texttt{arr}[i]=2\cdot (a+b+c+d+e)+\sum_{j=0}^{i-1}\texttt{arr}[j]
+$$
